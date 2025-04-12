@@ -7,7 +7,7 @@ function scr_fw_game_setup()
 	// Default settings. Some of them may be overwritten by the config file
 	global.window_name = "Sock Orbinauted Test Run"
 	global.init_resolution_w = 480;
-	global.init_resolution_h = 272;
+	global.init_resolution_h = 270;
 	global.window_scale = 2;
 	global.use_vsync = true;
 	global.gamepad_rumble = false;

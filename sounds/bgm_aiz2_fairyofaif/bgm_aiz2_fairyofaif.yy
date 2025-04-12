@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":231.144,
+  "duration":231.10796,
   "name":"bgm_aiz2_fairyofaif",
   "parent":{
     "name":"BGM",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":160.02612,
+  "duration":159.99252,
   "name":"bgm_sgz1_springsend",
   "parent":{
     "name":"BGM",

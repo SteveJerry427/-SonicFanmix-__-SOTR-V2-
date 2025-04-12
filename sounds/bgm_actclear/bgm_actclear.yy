@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":6.844082,
+  "duration":6.7929025,
   "name":"bgm_actclear",
   "parent":{
     "name":"BGM",

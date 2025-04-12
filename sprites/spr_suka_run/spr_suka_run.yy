@@ -35,7 +35,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_suka_run",
     "autoRecord":true,
     "backdropHeight":768,
@@ -66,6 +66,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":47.0,
+    "seqWidth":37.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

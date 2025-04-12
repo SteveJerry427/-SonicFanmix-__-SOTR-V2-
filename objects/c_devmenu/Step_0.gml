@@ -111,7 +111,7 @@ switch category_id
 
 		if !game_check_data(global.current_save_slot)
 		{
-			room_to_load = rm_stage_nlz1;
+			room_to_load = rm_stage_ppz;
 			m_devmenu_load_category(4);
 			
 			break;
@@ -124,7 +124,7 @@ switch category_id
 		switch global.stage_index
 		{
 			default:
-				room_goto(rm_stage_nlz1);
+				room_goto(rm_stage_ppz);
 		}
 		
 	break;
@@ -135,31 +135,32 @@ switch category_id
 		switch option_id
 		{
 			case 0: room_to_load = rm_stage_ccz; break;
-			case 1: room_to_load = rm_stage_nlz1; break;
-			case 2: room_to_load = rm_stage_nlz2; break;
-			case 3: room_to_load = rm_stage_ssz1; break;
-			case 4: room_to_load = rm_stage_ssz1_v2; break;
-			case 5: room_to_load = rm_stage_ssz2; break;
-			case 6: room_to_load = rm_stage_blz1; break;
-			case 7: room_to_load = rm_stage_blz2; break;
-			case 8: room_to_load = rm_stage_bpz1; break;
-			case 9: room_to_load = rm_stage_bpz2; break;
-			case 10: room_to_load = rm_stage_sgz1; break;
-			case 11: room_to_load = rm_stage_sgz2; break;
-			case 12: room_to_load = rm_stage_ddz1; break;
-			case 13: room_to_load = rm_stage_ddz2; break;
-			case 14: room_to_load = rm_stage_aiz1; break;
-			case 15: room_to_load = rm_stage_aiz2; break;
-			case 16: room_to_load = rm_stage_esz1; break;
-			case 17: room_to_load = rm_stage_esz2; break;
-			case 18: room_to_load = rm_stage_hhz; break;
-			case 19: room_to_load = rm_stage_acz_r; break;
-			case 20: room_to_load = rm_stage_wr3z_r; break;
-			case 21: room_to_load = rm_stage_bhz; break;
-			case 22: room_to_load = rm_stage_tsz0; break;
-			case 23: room_to_load = rm_bonus; break;
-			case 24: room_to_load = rm_special; break;
-			case 25: room_to_load = rm_continue; break;
+			case 1: room_to_load = rm_stage_ppz; break;
+			case 2: room_to_load = rm_stage_nlz1; break;
+			case 3: room_to_load = rm_stage_nlz2; break;
+			case 4: room_to_load = rm_stage_ssz1; break;
+			case 5: room_to_load = rm_stage_ssz1_v2; break;
+			case 6: room_to_load = rm_stage_ssz2; break;
+			case 7: room_to_load = rm_stage_blz1; break;
+			case 8: room_to_load = rm_stage_blz2; break;
+			case 9: room_to_load = rm_stage_bpz1; break;
+			case 10: room_to_load = rm_stage_bpz2; break;
+			case 11: room_to_load = rm_stage_sgz1; break;
+			case 12: room_to_load = rm_stage_sgz2; break;
+			case 13: room_to_load = rm_stage_ddz1; break;
+			case 14: room_to_load = rm_stage_ddz2; break;
+			case 15: room_to_load = rm_stage_aiz1; break;
+			case 16: room_to_load = rm_stage_aiz2; break;
+			case 17: room_to_load = rm_stage_esz1; break;
+			case 18: room_to_load = rm_stage_esz2; break;
+			case 19: room_to_load = rm_stage_hhz; break;
+			case 20: room_to_load = rm_stage_acz_r; break;
+			case 21: room_to_load = rm_stage_wr3z_r; break;
+			case 22: room_to_load = rm_stage_bhz; break;
+			case 23: room_to_load = rm_stage_tsz0; break;
+			case 24: room_to_load = rm_bonus; break;
+			case 25: room_to_load = rm_special; break;
+			case 26: room_to_load = rm_continue; break;
 			default: room_to_load = noone;
 		}
 

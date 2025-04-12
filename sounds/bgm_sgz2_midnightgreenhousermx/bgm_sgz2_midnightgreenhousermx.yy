@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":204.04245,
+  "duration":204.0,
   "name":"bgm_sgz2_midnightgreenhousermx",
   "parent":{
     "name":"BGM",

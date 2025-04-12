@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":241.05795,
+  "duration":241.01334,
   "name":"bgm_ddz1_searchformydreams",
   "parent":{
     "name":"BGM",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":209.71101,
+  "duration":209.68596,
   "name":"bgm_bpz2_maze2",
   "parent":{
     "name":"BGM",

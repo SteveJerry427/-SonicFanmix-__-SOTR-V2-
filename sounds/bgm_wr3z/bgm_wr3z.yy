@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":110.94204,
+  "duration":110.909096,
   "name":"bgm_wr3z",
   "parent":{
     "name":"BGM",

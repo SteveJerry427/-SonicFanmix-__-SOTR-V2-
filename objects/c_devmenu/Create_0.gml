@@ -39,6 +39,7 @@ m_devmenu_add_category    // ID 2
     "ROOM SELECT",
 	
    "COLLISION CANVAS",
+   "PLANETOID PORT",
 	"NEVER LAKE 1",
 	"NEVER LAKE 2",
 	"SKYLINE SQUARE 1",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":163.84,
+  "duration":163.8,
   "name":"bgm_hhz",
   "parent":{
     "name":"BGM",

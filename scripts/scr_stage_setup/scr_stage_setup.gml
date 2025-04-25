@@ -320,9 +320,9 @@ function scr_stage_setup()
 			bg_add_layer(spr_ssz1_bg_layer9, 0, 272, 0, 0, 3, 0, 0.20, 0.090);
 			bg_add_layer(spr_ssz1_bg_layer9, 272, 128, 271, 0, 0, 0, 0.20, 0.090);
 			bg_set_perspective_x(0.20, 0);
-			bg_add_layer(spr_ssz1_bg_layer10, 0, 400, 40, 0, 0, 0, 0.25, 0.11);				
+			bg_add_layer(spr_ssz1_bg_layer11, 0, 480, 0, 0, 0, 0, 0.25, 0.11);				
 			bg_set_perspective_x(0.25, 0);
-			bg_add_layer(spr_ssz1_bg_layer12, 0, 400, 80, 0, 0, 0, 0.35, 0.15);				
+			bg_add_layer(spr_ssz1_bg_layer12ex, 0, 480, 64, 0, 0, 0, 0.35, 0.15);				
 			bg_set_perspective_x(0.35, 0);
 			bg_add_layer(spr_ssz1_bg_layer14, 0, 400, 176, 0, -0.6, 0, 0.4, 0.175);				
 			bg_set_perspective_x(0.4, 0);
@@ -450,7 +450,7 @@ function scr_stage_setup()
 		
 		case rm_stage_blz2:
 		
-		m_stage_set(7, "BRIDGE LAGOON", 1, bgm_blz2_LCZ1JX16bit, m_local_random_animals(_animal_array), 3000, 1500, rm_devmenu, true);
+		m_stage_set(7, "BRIDGE LAGOON", 1, bgm_blz2_LCZ1JX16bit, m_local_random_animals(_animal_array), 3000, 1500, rm_stage_bpz1, true);
 		
 		player_spawn(100, 1056, global.player_main, "Objects");
 		player_spawn(70, 1056, global.player_cpu, "Objects");
@@ -554,12 +554,12 @@ function scr_stage_setup()
 		
 		break;
 			
-			case rm_stage_sgz2:
+			case rm_stage_sgz2_v2:
 		
-		m_stage_set(11, "SPRING GARDENS", 1, bgm_sgz2_midnightgreenhousermx, m_local_random_animals(_animal_array), 4000, 2975, rm_devmenu, true);
+		m_stage_set(11, "SPRING GARDENS", 1, bgm_sgz2_midnightgreenhousermx, m_local_random_animals(_animal_array), 3968, 2944, rm_stage_ddz1, true);
 		
-		player_spawn(100, 1744, global.player_main, "Objects");
-		player_spawn(70, 1744, global.player_cpu, "Objects");
+		player_spawn(100, 1536, global.player_main, "Objects");
+		player_spawn(70, 1536, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		
@@ -604,7 +604,7 @@ function scr_stage_setup()
 		
 				case rm_stage_ddz1:
 		
-		m_stage_set(12, "DAWNBREAK DRIVE", 0, bgm_ddz1_searchformydreams, m_local_random_animals(_animal_array), 2500, -1, rm_devmenu, true);
+		m_stage_set(12, "DAWNBREAK DRIVE", 0, bgm_ddz1_searchformydreams, m_local_random_animals(_animal_array), 2500, -1, rm_stage_ddz2, true);
 		
 		player_spawn(100, 624, global.player_main, "Objects");
 		player_spawn(70, 624, global.player_cpu, "Objects");
@@ -615,7 +615,7 @@ function scr_stage_setup()
 		
 			case rm_stage_ddz2:
 		
-		m_stage_set(12, "DAWNBREAK DRIVE", 1, bgm_ddz2_searchformydreamsrmx, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, true);
+		m_stage_set(12, "DAWNBREAK DRIVE", 1, bgm_ddz2_searchformydreamsrmx, m_local_random_animals(_animal_array), 2000, -1, rm_stage_aiz1, true);
 		
 		player_spawn(0, 1312, global.player_main, "Objects");
 		player_spawn(0, 1312, global.player_cpu, "Objects");
@@ -652,7 +652,7 @@ function scr_stage_setup()
 		
 			case rm_stage_aiz1:
 		
-		m_stage_set(13, "AURORA ICEFIELD", 0, bgm_aiz2_fairyofaif, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, true);
+		m_stage_set(13, "AURORA ICEFIELD", 0, bgm_aiz2_fairyofaif, m_local_random_animals(_animal_array), 2000, -1, rm_stage_aiz2, true);
 		
 		player_spawn(100, 1808, global.player_main, "Objects");
 		player_spawn(70, 1808, global.player_cpu, "Objects");
@@ -700,7 +700,7 @@ function scr_stage_setup()
 		
 		case rm_stage_aiz2:
 		
-		m_stage_set(14, "AURORA ICEFIELD", 1, bgm_aiz2_fairyofaif, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, true);
+		m_stage_set(14, "AURORA ICEFIELD", 1, bgm_aiz2_fairyofaif, m_local_random_animals(_animal_array), 2000, -1, rm_stage_esz1, true);
 		
 		player_spawn(100, 1808, global.player_main, "Objects");
 		player_spawn(70, 1808, global.player_cpu, "Objects");
@@ -744,7 +744,7 @@ function scr_stage_setup()
 		
 			case rm_stage_esz1:
 		
-		m_stage_set(15, "EGGSERVATORY", 0, bgm_esz1_degeneracyyamajet, m_local_random_animals(_animal_array), 2500, -1, rm_devmenu, true);
+		m_stage_set(15, "EGGSERVATORY", 0, bgm_esz1_degeneracyyamajet, m_local_random_animals(_animal_array), 2500, -1, rm_stage_esz2, true);
 		
 		player_spawn(100, 1488, global.player_main, "Objects");
 		player_spawn(70, 1488, global.player_cpu, "Objects");

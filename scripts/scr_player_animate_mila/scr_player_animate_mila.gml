@@ -39,7 +39,7 @@ function scr_player_animate_mila()
 			
 		case ANI_MOVE:
 		
-			var _sprite = spr_amy_walk;
+			var _sprite = spr_mila_walk;
 			
 			if abs(spd_ground) >= 6
 			{

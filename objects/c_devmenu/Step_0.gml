@@ -146,7 +146,7 @@ switch category_id
 			case 9: room_to_load = rm_stage_bpz1; break;
 			case 10: room_to_load = rm_stage_bpz2; break;
 			case 11: room_to_load = rm_stage_sgz1; break;
-			case 12: room_to_load = rm_stage_sgz2; break;
+			case 12: room_to_load = rm_stage_sgz2_v2; break;
 			case 13: room_to_load = rm_stage_ddz1; break;
 			case 14: room_to_load = rm_stage_ddz2; break;
 			case 15: room_to_load = rm_stage_aiz1; break;

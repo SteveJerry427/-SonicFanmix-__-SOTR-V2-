@@ -16,7 +16,7 @@ function scr_fw_game_setup()
 	global.debug_collision = 0;
 	global.start_room = rm_devmenu;
 	global.skip_branding = false;
-	global.discord_app_id = "1213647618434011196";
+	global.discord_app_id = "1365853419797221477";
 	
 	// Fonts
 	global.font_large = font_register(spr_font_large, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", true, 0);

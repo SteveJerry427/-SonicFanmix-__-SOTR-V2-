@@ -206,6 +206,7 @@
     {"id":{"name":"rm_stage_aiz1","path":"rooms/rm_stage_aiz1/rm_stage_aiz1.yy",},},
     {"id":{"name":"rm_stage_aiz2","path":"rooms/rm_stage_aiz2/rm_stage_aiz2.yy",},},
     {"id":{"name":"rm_stage_bhz","path":"rooms/rm_stage_bhz/rm_stage_bhz.yy",},},
+    {"id":{"name":"rm_stage_blz1_v2","path":"rooms/rm_stage_blz1_v2/rm_stage_blz1_v2.yy",},},
     {"id":{"name":"rm_stage_blz1","path":"rooms/rm_stage_blz1/rm_stage_blz1.yy",},},
     {"id":{"name":"rm_stage_blz2","path":"rooms/rm_stage_blz2/rm_stage_blz2.yy",},},
     {"id":{"name":"rm_stage_bpz1","path":"rooms/rm_stage_bpz1/rm_stage_bpz1.yy",},},
@@ -402,6 +403,7 @@
     {"id":{"name":"bgm_actclear","path":"sounds/bgm_actclear/bgm_actclear.yy",},},
     {"id":{"name":"bgm_acz_r_joinus4happytime","path":"sounds/bgm_acz_r_joinus4happytime/bgm_acz_r_joinus4happytime.yy",},},
     {"id":{"name":"bgm_aiz2_fairyofaif","path":"sounds/bgm_aiz2_fairyofaif/bgm_aiz2_fairyofaif.yy",},},
+    {"id":{"name":"bgm_blz1_BIZ1","path":"sounds/bgm_blz1_BIZ1/bgm_blz1_BIZ1.yy",},},
     {"id":{"name":"bgm_blz1_BIZ1JX16bit","path":"sounds/bgm_blz1_BIZ1JX16bit/bgm_blz1_BIZ1JX16bit.yy",},},
     {"id":{"name":"bgm_blz2_LCZ1JX16bit","path":"sounds/bgm_blz2_LCZ1JX16bit/bgm_blz2_LCZ1JX16bit.yy",},},
     {"id":{"name":"bgm_bonus","path":"sounds/bgm_bonus/bgm_bonus.yy",},},
@@ -1022,6 +1024,7 @@
     {"roomId":{"name":"rm_stage_ssz1_v2","path":"rooms/rm_stage_ssz1_v2/rm_stage_ssz1_v2.yy",},},
     {"roomId":{"name":"rm_stage_ppz","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},},
     {"roomId":{"name":"rm_stage_sgz2_v2","path":"rooms/rm_stage_sgz2_v2/rm_stage_sgz2_v2.yy",},},
+    {"roomId":{"name":"rm_stage_blz1_v2","path":"rooms/rm_stage_blz1_v2/rm_stage_blz1_v2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

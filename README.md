@@ -1,0 +1,1 @@
+I'd be crying if I looked like that too, bruh. That's fucked up what they be doin to y'all. I ain't even gon hold you bruh, I be saying that's fucked up like bro. You prolly had the full washing set, your shit be fire probably if they ain't cut yo shit. Fuck it tho bro, it's your life.

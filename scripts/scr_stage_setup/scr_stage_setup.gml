@@ -254,10 +254,10 @@ function scr_stage_setup()
 			bg_set_perspective_x(0, 0);
 			bg_add_layer(spr_ssz1_bg_layer1_old, 0, 400, 0, 0, 0, 0, 0.01, 0.055);				
 			bg_set_perspective_x(0.01, 0);
-			bg_add_layer(spr_ssz1_bg_layer1_and_2, 0, 32, 0, 0, -0.125, 0, 0.02, 0.052);	
-			bg_add_layer(spr_ssz1_bg_layer1_and_2, 32, 48, 32, 0, -0.150, 0, 0.02, 0.054);	
-			bg_add_layer(spr_ssz1_bg_layer1_and_2, 80, 64, 80, 0, -0.175, 0, 0.02, 0.056);	
-			bg_add_layer(spr_ssz1_bg_layer1_and_2, 144, 256, 144, 0, -0.1, 0, 0.03, 0.056);
+			bg_add_layer(spr_ssz1_bg_layer3_old, 0, 32, 0, 0, -0.125, 0, 0.02, 0.052);	
+			bg_add_layer(spr_ssz1_bg_layer3_old, 32, 48, 32, 0, -0.150, 0, 0.02, 0.054);	
+			bg_add_layer(spr_ssz1_bg_layer3_old, 80, 64, 80, 0, -0.175, 0, 0.02, 0.056);	
+			bg_add_layer(spr_ssz1_bg_layer3_old, 144, 256, 144, 0, -0.1, 0, 0.03, 0.056);
 			bg_set_perspective_x(0.03, 0);
 			bg_add_layer(spr_ssz1_bg_layer4_old, 0, 400, -48, 0, 0, 0, 0.04, 0.050);				
 			bg_set_perspective_x(0.04, 0);
@@ -413,10 +413,52 @@ function scr_stage_setup()
 		
 		case rm_stage_blz1:
 		
-		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_stage_blz2, true);
+		m_stage_set(23, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_stage_blz2, true);
 		
 		player_spawn(100, 624, global.player_main, "Objects");
 		player_spawn(70, 624, global.player_cpu, "Objects");
+		
+		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
+		
+		// Background
+			
+			bg_add_layer(spr_blz1_bg_layer0, 0, 400, -60, 0, 0, 0, 0, 0.025);				
+			bg_set_perspective_x(0, 0);
+			bg_add_layer(spr_blz1_bg_layer1, 0, 32, -8, 0, -0.02, 0, 0.02, 0.025);
+			bg_add_layer(spr_blz1_bg_layer1, 32, 64, 8, 0, -0.04, 0, 0.04, 0.025);
+			bg_add_layer(spr_blz1_bg_layer1, 96, 64, 48, 0, -0.06, 0, 0.06, 0.025);
+			bg_set_perspective_x(0.06, 0);
+			bg_add_layer(spr_blz1_bg_layer2, 0, 400, -60, 0, -0.07, 0, 0.03, 0.03);				
+			bg_set_perspective_x(0.07, 0);
+			bg_add_layer(spr_blz1_bg_layer3, 0, 400, -60, 0, 0, 0, 0.06, 0.03);				
+			bg_set_perspective_x(0.06, 0);
+			bg_add_layer(spr_blz1_bg_layer4, 0, 272, -60, 0, 0, 0, 0.08, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 272, 16, 212, 0, 0, 0, 0.10, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 288, 16, 228, 0, 0, 0, 0.15, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 304, 16, 244, 0, 0, 0, 0.175, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 320, 16, 260, 0, 0, 0, 0.2, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 336, 16, 276, 0, 0, 0, 0.225, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 352, 16, 292, 0, 0, 0, 0.25, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 368, 16, 308, 0, 0, 0, 0.275, 0.03);
+			bg_add_layer(spr_blz1_bg_layer4, 384, 16, 324, 0, 0, 0, 0.30, 0.03);
+			bg_set_perspective_x(0.30, 0);
+			bg_add_layer(spr_blz1_bg_layer5, 0, 400, -60, 0, 0, 0, 0.1, 0.03);				
+			bg_set_perspective_x(0.1, 0);
+			bg_add_layer(spr_blz1_bg_layer6, 0, 400, -60, 0, 0, 0, 0.15, 0.03);				
+			bg_set_perspective_x(0.15, 0);
+			bg_add_layer(spr_blz1_bg_layer7, 0, 400, -60, 0, 0, 0, 0.2, 0.03);				
+			bg_set_perspective_x(0.2, 0);
+			bg_add_layer(spr_blz1_bg_layer8, 0, 400, -60, 0, 0, 0, 0.25, 0.03);				
+			bg_set_perspective_x(0.25, 0);
+			
+			break;
+		
+		case rm_stage_blz1_v2:
+		
+		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1, m_local_random_animals(_animal_array), 1056, -1, rm_stage_blz2, true);
+		
+		player_spawn(100, 1024, global.player_main, "Objects");
+		player_spawn(70, 1024, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		

@@ -733,6 +733,7 @@
     {"name":"inst_5750631A","path":"rooms/rm_stage_tsz0/rm_stage_tsz0.yy",},
     {"name":"inst_5F283465","path":"rooms/rm_stage_tsz0/rm_stage_tsz0.yy",},
     {"name":"inst_1D3983C9","path":"rooms/rm_stage_tsz0/rm_stage_tsz0.yy",},
+    {"name":"inst_AAB186","path":"rooms/rm_stage_tsz0/rm_stage_tsz0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -4727,6 +4728,7 @@
         {"$GMRInstance":"v2","%Name":"inst_5750631A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5750631A","objectId":{"name":"obj_ring","path":"objects/obj_ring/obj_ring.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9924.0,"y":1240.0,},
         {"$GMRInstance":"v2","%Name":"inst_5F283465","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F283465","objectId":{"name":"obj_ring","path":"objects/obj_ring/obj_ring.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9936.0,"y":1280.0,},
         {"$GMRInstance":"v2","%Name":"inst_1D3983C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D3983C9","objectId":{"name":"obj_ring","path":"objects/obj_ring/obj_ring.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9856.0,"y":1200.0,},
+        {"$GMRInstance":"v2","%Name":"inst_AAB186","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AAB186","objectId":{"name":"obj_spinning_spikeball","path":"objects/obj_spinning_spikeball/obj_spinning_spikeball.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":312.0,"y":832.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"GraphicsA","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GraphicsA","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":144,"SerialiseWidth":1432,"TileCompressedData":[
           -12528,-2147483648,2,1,49,-3,200,3,50,2,2,-1424,-2147483648,2,805306420,200,-3,3,3,356,1,1,-1051,-2147483648,

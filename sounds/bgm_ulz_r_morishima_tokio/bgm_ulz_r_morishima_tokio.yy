@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_ulz_r_morishima_tokio",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":2,
+  "conversionMode":0,
+  "duration":322.7178,
+  "name":"bgm_ulz_r_morishima_tokio",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_ulz_r_morishima_tokio.mp3",
+  "type":1,
+  "volume":0.8,
+}

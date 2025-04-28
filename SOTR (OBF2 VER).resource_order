@@ -132,7 +132,6 @@
     {"name":"obj_sparkle","order":9,"path":"objects/obj_sparkle/obj_sparkle.yy",},
     {"name":"obj_spikes_h","order":9,"path":"objects/obj_spikes_h/obj_spikes_h.yy",},
     {"name":"obj_spikes_v","order":8,"path":"objects/obj_spikes_v/obj_spikes_v.yy",},
-    {"name":"obj_spinning_spikeball","order":29,"path":"objects/obj_spinning_spikeball/obj_spinning_spikeball.yy",},
     {"name":"obj_spring_d_red","order":7,"path":"objects/obj_spring_d_red/obj_spring_d_red.yy",},
     {"name":"obj_spring_d_yellow","order":6,"path":"objects/obj_spring_d_yellow/obj_spring_d_yellow.yy",},
     {"name":"obj_spring_h_red","order":5,"path":"objects/obj_spring_h_red/obj_spring_h_red.yy",},

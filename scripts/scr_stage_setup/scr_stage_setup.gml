@@ -455,7 +455,7 @@ function scr_stage_setup()
 		
 		case rm_stage_blz1_v2:
 		
-		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1, m_local_random_animals(_animal_array), 1056, -1, rm_stage_blz2, true);
+		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1, m_local_random_animals(_animal_array), 1056, 2208, rm_stage_blz2, true);
 		
 		player_spawn(100, 1024, global.player_main, "Objects");
 		player_spawn(70, 1024, global.player_cpu, "Objects");

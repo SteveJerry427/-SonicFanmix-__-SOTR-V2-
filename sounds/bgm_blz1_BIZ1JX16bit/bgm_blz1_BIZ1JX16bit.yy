@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":201.288,
+  "duration":0.0,
   "name":"bgm_blz1_BIZ1JX16bit",
   "parent":{
     "name":"BGM",

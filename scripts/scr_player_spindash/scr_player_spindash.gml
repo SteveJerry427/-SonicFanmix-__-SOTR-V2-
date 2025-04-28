@@ -3,15 +3,17 @@ function scr_player_spindash()
 {
 	gml_pragma("forceinline");
 	
-	if !global.spin_dash
+	if !global.spin_dash || global.player_main == PLAYER_EGG
 	{
 		exit;
 	}
+    
+    
 
 	// Spin Dash initiation logic
 	if action != ACTION_SPINDASH
 	{
-		if action == ACTION_NONE && (animation == ANI_DUCK || animation == ANI_GLIDE_LAND)
+		if action == ACTION_NONE && (animation == ANI_DUCK || animation == ANI_GLIDE_LAND && global.player_main != PLAYER_EGG)
 		{
 			if !input_press.action_any || !input_down.down
 			{

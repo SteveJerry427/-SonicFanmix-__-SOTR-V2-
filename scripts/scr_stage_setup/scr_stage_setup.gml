@@ -27,7 +27,7 @@ function scr_stage_setup()
 	{
 		case rm_stage_tsz0:
 		
-			m_stage_set(28, "TECH STADIUM", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
+			m_stage_set(26, "TECH STADIUM", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
 			
 			player_spawn(112, 896, global.player_main, "Objects");
 			player_spawn(96, 896, global.player_cpu, "Objects");
@@ -241,7 +241,7 @@ function scr_stage_setup()
 		
 		case rm_stage_ssz1:
 		
-		m_stage_set(29, "SKYLINE SQUARE", 0, bgm_ssz1alt_mushroombridgermx, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
+		m_stage_set(24, "SKYLINE SQUARE", 0, bgm_ssz1alt_mushroombridgermx, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
 		
 		player_spawn(5, 624, global.player_main, "Objects");
 		player_spawn(5, 624, global.player_cpu, "Objects");
@@ -413,7 +413,7 @@ function scr_stage_setup()
 		
 		case rm_stage_blz1:
 		
-		m_stage_set(30, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_stage_blz2, true);
+		m_stage_set(25, "BRIDGE LAGOON", 0, bgm_blz1old_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
 		
 		player_spawn(100, 624, global.player_main, "Objects");
 		player_spawn(70, 624, global.player_cpu, "Objects");

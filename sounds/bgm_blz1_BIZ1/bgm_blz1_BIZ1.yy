@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"bgm_blz1_BIZ1.mp3",
   "type":1,
-  "volume":0.8,
+  "volume":0.4,
 }

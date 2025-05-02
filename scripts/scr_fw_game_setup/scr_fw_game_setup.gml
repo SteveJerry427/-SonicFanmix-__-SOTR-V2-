@@ -5,7 +5,7 @@ function scr_fw_game_setup()
 	global.dev_mode = true;
 	
 	// Default settings. Some of them may be overwritten by the config file
-	global.window_name = "Sock Fanmix"
+	global.window_name = "Sock Fanmix (SOTR)"
 	global.init_resolution_w = 480;
 	global.init_resolution_h = 272;
 	global.window_scale = 2;

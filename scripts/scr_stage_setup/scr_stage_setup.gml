@@ -824,7 +824,7 @@ function scr_stage_setup()
 		
 		case rm_stage_ulz_r:
 		
-		m_stage_set(18, "UTSUROSHIMA LOOP", 0, bgm_ulz_r_morishima_tokio, m_local_random_animals(_animal_array), 1152, 960, rm_devmenu, true);
+		m_stage_set(18, "UTSUROSHIMA LOOP", 0, bgm_ulz_r_morishima_tokio, m_local_random_animals(_animal_array), 992, 960, rm_devmenu, true);
 		
 		player_spawn(100, 896, global.player_main, "Objects");
 		player_spawn(80, 896, global.player_cpu, "Objects");

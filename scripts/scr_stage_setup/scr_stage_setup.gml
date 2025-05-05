@@ -822,9 +822,20 @@ function scr_stage_setup()
 		 
 		break;
 		
+		case rm_stage_sfz:
+		
+		m_stage_set(18, "SKY FORTRESS", ACT_SINGLE, bgm_hhz, m_local_random_animals(_animal_array), 4000, -1, rm_devmenu, true);
+		
+		player_spawn(100, 768, global.player_main, "Objects");
+		player_spawn(80, 768, global.player_cpu, "Objects");
+		
+		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
+		 
+		break;
+		
 		case rm_stage_ulz_r:
 		
-		m_stage_set(18, "UTSUROSHIMA LOOP", 0, bgm_ulz_r_morishima_tokio, m_local_random_animals(_animal_array), 992, 960, rm_devmenu, true);
+		m_stage_set(19, "UTSUROSHIMA LOOP", 0, bgm_ulz_r_morishima_tokio, m_local_random_animals(_animal_array), 992, 960, rm_devmenu, true);
 		
 		player_spawn(100, 896, global.player_main, "Objects");
 		player_spawn(80, 896, global.player_cpu, "Objects");
@@ -856,7 +867,7 @@ function scr_stage_setup()
 		
 		case rm_stage_acz_r:
 		
-		m_stage_set(19, "AZURE CARNIVAL", 1, bgm_acz_r_joinus4happytime, m_local_random_animals(_animal_array), 1088, 912, rm_devmenu, true);
+		m_stage_set(20, "AZURE CARNIVAL", 1, bgm_acz_r_joinus4happytime, m_local_random_animals(_animal_array), 1088, 912, rm_devmenu, true);
 		
 		player_spawn(100, 800, global.player_main, "Objects");
 		player_spawn(80, 800, global.player_cpu, "Objects");
@@ -888,7 +899,7 @@ function scr_stage_setup()
 		
 		case rm_stage_wr3z_r:
 		
-		m_stage_set(20, "WAHOO RACEWAY", 2, bgm_wr3z, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, true);
+		m_stage_set(21, "WAHOO RACEWAY", 2, bgm_wr3z, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, true);
 		
 		player_spawn(100, 1872, global.player_main, "Objects");
 		player_spawn(70, 1872, global.player_cpu, "Objects");
@@ -926,7 +937,7 @@ function scr_stage_setup()
 		
 		case rm_stage_bhz:
 		
-		m_stage_set(21, "BIG HILL", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
+		m_stage_set(22, "BIG HILL", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
 		
 		player_spawn(100, 11936, global.player_main, "Objects");
 		player_spawn(70, 11936, global.player_cpu, "Objects");

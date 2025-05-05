@@ -171,6 +171,7 @@
     {"name":"rm_stage_nlz1","order":23,"path":"rooms/rm_stage_nlz1/rm_stage_nlz1.yy",},
     {"name":"rm_stage_nlz2","order":31,"path":"rooms/rm_stage_nlz2/rm_stage_nlz2.yy",},
     {"name":"rm_stage_ppz","order":57,"path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
+    {"name":"rm_stage_sfz","order":62,"path":"rooms/rm_stage_sfz/rm_stage_sfz.yy",},
     {"name":"rm_stage_sgz1","order":32,"path":"rooms/rm_stage_sgz1/rm_stage_sgz1.yy",},
     {"name":"rm_stage_sgz2_v2","order":59,"path":"rooms/rm_stage_sgz2_v2/rm_stage_sgz2_v2.yy",},
     {"name":"rm_stage_sgz2","order":34,"path":"rooms/rm_stage_sgz2/rm_stage_sgz2.yy",},

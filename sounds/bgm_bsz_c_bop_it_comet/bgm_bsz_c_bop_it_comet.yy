@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_bsz_c_bop_it_comet",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":2,
+  "conversionMode":0,
+  "duration":193.27435,
+  "name":"bgm_bsz_c_bop_it_comet",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Audio/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_bsz_c_bop_it_comet.mp3",
+  "type":1,
+  "volume":0.5,
+}

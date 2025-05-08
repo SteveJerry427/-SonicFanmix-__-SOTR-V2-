@@ -628,7 +628,7 @@ function scr_stage_setup()
 			bg_set_perspective_x(0.1, 0);
 			bg_add_layer(spr_sgz2_bg_layer7, 0, 560, 0, 0, 0, 0, 0.15, 0.001);				
 			bg_set_perspective_x(0.15, 0);
-			bg_add_layer(spr_sgz2_bg_layer8, 0, 800, 0, 0, 0, 0, 0.2, 0.001);				
+			bg_add_layer(spr_sgz2_bg_layer8, 0, 896, 0, 0, 0, 0, 0.2, 0.001);				
 			bg_set_perspective_x(0.2, 0);
 			bg_add_layer(spr_sgz2_bg_layer9, 0, 800, 0, 0, 0, 0, 0.25, 0.001);				
 			bg_set_perspective_x(0.25, 0);
@@ -638,14 +638,14 @@ function scr_stage_setup()
 			bg_set_perspective_x(0.35, 0);
 			bg_add_layer(spr_sgz2_bg_layer12, 0, 800, 0, 0, 0, 0, 0.4, 0.001);				
 			bg_set_perspective_x(0.4, 0);
-			bg_add_layer(spr_sgz2_bg_layer13fyactal, 0, 800, 0, 0, 0, 0, 0.45, 0.001);				
+			bg_add_layer(spr_sgz2_bg_layer13, 0, 800, 0, 0, 0, 0, 0.45, 0.001);				
 			bg_set_perspective_x(0.45, 0);
 			bg_add_layer(spr_sgz2_bg_layer14, 0, 800, 0, 0, 0, 0, 0.5, 0.001);				
 			bg_set_perspective_x(0.5, 0);
-			bg_add_layer(spr_sgz2_bg_layer15, 0, 800, 0, 0, 0, 0, 0.55, 0.001);				
+			bg_add_layer(spr_sgz2_bg_layer15, 0, 896, -32, 0, 0, 0, 0.55, 0.001);				
 			bg_set_perspective_x(0.55, 0);
 			bg_add_layer(spr_sgz2_bg_layer18, 0, 176, 692, 0, -0.3, 0, 0.6, 0.001);
-			bg_set_perspective_x(0.75, 2);
+			bg_set_perspective_x(0.9, 2);
 			bg_set_perspective_y(water_level_init);
 		break;
 		
@@ -824,10 +824,10 @@ function scr_stage_setup()
 		
 		case rm_stage_sfz:
 		
-		m_stage_set(18, "SKY FORTRESS", ACT_SINGLE, bgm_hhz, m_local_random_animals(_animal_array), 4000, -1, rm_devmenu, true);
+		m_stage_set(18, "SKY FORTRESS", ACT_SINGLE, bgm_sfz_sfz216bit, m_local_random_animals(_animal_array), 4000, -1, rm_devmenu, true);
 		
 		player_spawn(100, 768, global.player_main, "Objects");
-		player_spawn(80, 768, global.player_cpu, "Objects");
+		player_spawn(70, 768, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		 
@@ -838,32 +838,18 @@ function scr_stage_setup()
 		m_stage_set(19, "UTSUROSHIMA LOOP", 0, bgm_ulz_r_morishima_tokio, m_local_random_animals(_animal_array), 992, 960, rm_devmenu, true);
 		
 		player_spawn(100, 896, global.player_main, "Objects");
-		player_spawn(80, 896, global.player_cpu, "Objects");
+		player_spawn(70, 896, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		
 		// Background
-			
-			bg_add_layer(spr_acz_bg_layer0, 0, 240, 0, 0, 0, 0, 0, 0.01);				
-			bg_set_perspective_x(0, 0);
-			bg_add_layer(spr_acz_bg_layer1, 0, 16, 16, 0, -0.03, 0, 0.03, 0.02);
-			bg_add_layer(spr_acz_bg_layer1, 16, 16, 32, 0, -0.04, 0, 0.04, 0.02);
-			bg_add_layer(spr_acz_bg_layer1, 32, 16, 48, 0, -0.05, 0, 0.05, 0.02);
-			bg_set_perspective_x(0.05, 0);
-			bg_add_layer(spr_acz_bg_layer2, 0, 240, 32, 0, 0, 0, 0.05, 0.03);				
-			bg_set_perspective_x(0.05, 0);
-			bg_add_layer(spr_acz_bg_layer3, 0, 240, 32, 0, 0, 0, 0.075, 0.04);				
-			bg_set_perspective_x(0.075, 0);
-			bg_add_layer(spr_acz_bg_layer4, 0, 240, 32, 0, 0, 0, 0.1, 0.06);				
-			bg_set_perspective_x(0.1, 0);
-			bg_add_layer(spr_acz_bg_layer5, 0, 240, 32, 0, 0, 0, 0.15, 0.06);				
-			bg_set_perspective_x(0.15, 0);
-			bg_add_layer(spr_acz_bg_layer6, 0, 240, 32, 0, 0, 0, 0.2, 0.08);				
-			bg_set_perspective_x(0.2, 0);
-			bg_add_layer(spr_acz_bg_layer7, 0, 240, 128, 0, 0, 0, 0.3, 0.10);				
-			bg_set_perspective_x(0.3, 0);
-			
-		break;
+			bg_add_layer(spr_ulz_bg_layer0, 0, 400, 0, 0, 0, 0, 0, 0.001);				
+			bg_set_perspective_x(0.55, 0);
+			bg_add_layer(spr_ulz_bg_layer5, 0, 176, 224, 0, -0.3, 0, 0.3, 0.001);
+			bg_set_perspective_x(0.75, 2);
+			bg_set_perspective_y(water_level_init);
+		
+			break;
 		
 		case rm_stage_acz_r:
 		
@@ -935,9 +921,20 @@ function scr_stage_setup()
 		
 		break;
 		
+		case rm_stage_bsz_c:
+		
+		m_stage_set(22, "BORDER SPACE", ACT_SINGLE, bgm_bsz_c_bop_it_comet, m_local_random_animals(_animal_array), 4000, 0, rm_devmenu, true);
+		
+		player_spawn(100, 1536, global.player_main, "Objects");
+		player_spawn(70, 1536, global.player_cpu, "Objects");
+		
+		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
+		 
+		break;
+		
 		case rm_stage_bhz:
 		
-		m_stage_set(22, "BIG HILL", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
+		m_stage_set(23, "BIG HILL", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
 		
 		player_spawn(100, 11936, global.player_main, "Objects");
 		player_spawn(70, 11936, global.player_cpu, "Objects");

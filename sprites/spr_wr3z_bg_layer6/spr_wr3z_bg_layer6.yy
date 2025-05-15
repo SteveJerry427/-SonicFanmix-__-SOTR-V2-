@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Wahoo Raceway 3",
-    "path":"folders/Rooms/Wahoo Raceway 3.yy",
+    "name":"ZR3 Wahoo Raceway 3",
+    "path":"folders/Rooms/ZR3 Wahoo Raceway 3.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

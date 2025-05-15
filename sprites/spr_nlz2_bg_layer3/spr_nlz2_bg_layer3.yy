@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Never Lake 2",
-    "path":"folders/Rooms/Never Lake 2.yy",
+    "name":"Z1 Never Lake 2",
+    "path":"folders/Rooms/Z1 Never Lake 2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

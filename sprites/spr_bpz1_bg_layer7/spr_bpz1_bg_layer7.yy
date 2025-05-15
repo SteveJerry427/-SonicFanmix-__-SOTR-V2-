@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Blockside Park 1",
-    "path":"folders/Rooms/Blockside Park 1.yy",
+    "name":"Z4 Blockside Park 1",
+    "path":"folders/Rooms/Z4 Blockside Park 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

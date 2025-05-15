@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Spring Gardens 2",
-    "path":"folders/Rooms/Spring Gardens 2.yy",
+    "name":"Z5 Spring Gardens 2",
+    "path":"folders/Rooms/Z5 Spring Gardens 2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Utsuroshima Loop R",
-    "path":"folders/Rooms/Utsuroshima Loop R.yy",
+    "name":"ZR1 Utsuroshima Loop R",
+    "path":"folders/Rooms/ZR1 Utsuroshima Loop R.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

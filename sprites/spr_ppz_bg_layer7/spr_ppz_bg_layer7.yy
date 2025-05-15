@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Planetoid Port",
-    "path":"folders/Rooms/Planetoid Port.yy",
+    "name":"Z0 Planetoid Port",
+    "path":"folders/Rooms/Z0 Planetoid Port.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

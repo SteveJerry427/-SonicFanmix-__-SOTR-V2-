@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Bridge Lagoon 1",
-    "path":"folders/Rooms/Bridge Lagoon 1.yy",
+    "name":"Z3 Bridge Lagoon 1",
+    "path":"folders/Rooms/Z3 Bridge Lagoon 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

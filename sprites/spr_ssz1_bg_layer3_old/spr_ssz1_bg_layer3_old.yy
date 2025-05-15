@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Skyline Square 1 Old",
-    "path":"folders/Rooms/Skyline Square 1 Old.yy",
+    "name":"Z2 Skyline Square 1 Old",
+    "path":"folders/Rooms/Z2 Skyline Square 1 Old.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

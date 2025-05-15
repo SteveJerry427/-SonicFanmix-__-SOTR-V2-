@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Aroura Icefield 1",
-    "path":"folders/Rooms/Aroura Icefield 1.yy",
+    "name":"Z7 Aroura Icefield 1",
+    "path":"folders/Rooms/Z7 Aroura Icefield 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

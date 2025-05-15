@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Oceanic Overpass",
-    "path":"folders/Rooms/Oceanic Overpass.yy",
+    "name":"Z6 Dawnbreak Drive 2",
+    "path":"folders/Rooms/Z6 Dawnbreak Drive 2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

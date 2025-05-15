@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Azure Carnival R",
-    "path":"folders/Rooms/Azure Carnival R.yy",
+    "name":"ZR2 Azure Carnival R",
+    "path":"folders/Rooms/ZR2 Azure Carnival R.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

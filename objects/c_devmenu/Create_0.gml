@@ -63,6 +63,7 @@ m_devmenu_add_category    // ID 2
 	"WAHOO RACEWAY 3 R3",
 	"BORDER SPACE C",
 	"BIG HILL",
+	"NEVER LAKE 1 V2",
 	"SKYLINE SQUARE 1 V1",
 	"BRIDGE LAGOON 1 V2",
 	"TECH STADIUM 1",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.534014,
+  "duration":0.5340136,
   "name":"sfx_shield_bubble2",
   "parent":{
     "name":"SFX",

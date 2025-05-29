@@ -314,7 +314,7 @@ function scr_player_jump()
 					audio_play_sfx(sfx_shield_lightning2);
 					
 				break;
-				
+			
 		// Glide initiation
 		case PLAYER_KAT:
 		

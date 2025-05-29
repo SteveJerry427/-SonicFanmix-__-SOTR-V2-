@@ -2,8 +2,10 @@
 function scr_fw_audio_setup()
 {
 	audio_set_bgm_loop(bgm_woofle, 8.25, 104.25);
-	audio_set_bgm_loop(bgm_nlz1_placeholder, 4.75, 86.23);
+	audio_set_bgm_loop(bgm_nlz1_foreverinyourmind, 105.25, 214.96);
 	audio_set_bgm_loop(bgm_ssz1_wearefree, 28.22, 144.88);
+	audio_set_bgm_loop(bgm_sgz1_springsend, 21.72, 138.08);
+	audio_set_bgm_loop(bgm_sgz2_midnightgreenhousermx, 91.15, 177.52);
 	audio_set_bgm_loop(bgm_acz_r_joinus4happytime, 0.50, 118.50);
 	audio_set_bgm_loop(bgm_bonus, 10.85, 39.85);
 	audio_set_bgm_loop(bgm_invincibility, 0.00, 10.30);

@@ -49,7 +49,7 @@ function scr_player_animate_mila()
 				}
 				else
 				{
-					_sprite = spr_mila_run;
+					_sprite = spr_mila_dash;
 				}
 			}
 			

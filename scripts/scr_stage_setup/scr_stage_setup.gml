@@ -185,7 +185,7 @@ function scr_stage_setup()
 		
 		case rm_stage_nlz1_v2:
 		
-		m_stage_set(2, "NEVER LAKE", 0, bgm_nlz1_placeholder, m_local_random_animals(_animal_array), 2496, -1, rm_stage_nlz2_v2, true);
+		m_stage_set(2, "NEVER LAKE", 0, bgm_nlz1_foreverinyourmind, m_local_random_animals(_animal_array), 2496, -1, rm_stage_nlz2_v2, true);
 		
 		player_spawn(50, 2432, global.player_main, "Objects");
 		player_spawn(50, 2432, global.player_cpu, "Objects");
@@ -250,7 +250,7 @@ function scr_stage_setup()
 			
 		case rm_stage_nlz2_v2:
 		
-		m_stage_set(3, "NEVER LAKE", 1, bgm_nlz2_foreverinyourmind, m_local_random_animals(_animal_array), 2944, 2176, rm_stage_ssz1, true);
+		m_stage_set(3, "NEVER LAKE", 1, bgm_nlz2_theboom, m_local_random_animals(_animal_array), 2944, 2176, rm_stage_ssz1, true);
 		
 		player_spawn(0, 640, global.player_main, "Objects");
 		player_spawn(0, 640, global.player_cpu, "Objects");

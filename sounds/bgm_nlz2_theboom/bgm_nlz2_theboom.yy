@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"bgm_nlz2_foreverinyourmind",
+  "%Name":"bgm_nlz2_theboom",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":235.83347,
-  "name":"bgm_nlz2_foreverinyourmind",
+  "duration":155.67569,
+  "name":"bgm_nlz2_theboom",
   "parent":{
     "name":"BGM",
     "path":"folders/Audio/BGM.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_nlz2_foreverinyourmind.mp3",
+  "soundFile":"bgm_nlz2_theboom.mp3",
   "type":1,
-  "volume":1.0,
+  "volume":0.6,
 }

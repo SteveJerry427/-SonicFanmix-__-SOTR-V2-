@@ -57,7 +57,7 @@ function scr_player_animate_kat()
 		
 			var _duration = floor(max(1, 5 - abs(spd_ground)));
 			
-			ani_start(spr_knuckles_spin, 0, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
+			ani_start(spr_kat_spin, 0, 0, 0, [0, 4, 1, 4, 2, 4, 3, 4]);
 			ani_update_duration(_duration);
 			
 		break;

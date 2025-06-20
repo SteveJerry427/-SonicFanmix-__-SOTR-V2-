@@ -124,7 +124,7 @@ switch category_id
 		switch global.stage_index
 		{
 			default:
-				room_goto(rm_stage_ppz);
+				room_goto(rm_stage_nlz1_v2);
 		}
 		
 	break;

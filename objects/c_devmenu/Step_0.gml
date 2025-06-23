@@ -140,7 +140,7 @@ switch category_id
 			case 3: room_to_load = rm_stage_nlz2_v2; break;
 			case 4: room_to_load = rm_stage_ssz1_v2; break;
 			case 5: room_to_load = rm_stage_ssz2; break;
-			case 6: room_to_load = rm_stage_blz1; break;
+			case 6: room_to_load = rm_stage_blz1_v2; break;
 			case 7: room_to_load = rm_stage_blz2; break;
 			case 8: room_to_load = rm_stage_bpz1; break;
 			case 9: room_to_load = rm_stage_bpz2; break;
@@ -160,15 +160,16 @@ switch category_id
 			case 23: room_to_load = rm_stage_bsz_c; break;
 			case 24: room_to_load = rm_stage_bhz; break;
 			case 25: room_to_load = rm_stage_nlz1; break;
-			case 26: room_to_load = rm_stage_ssz1; break;
-			case 27: room_to_load = rm_stage_blz1_v2; break;
-			case 28: room_to_load = rm_stage_bpz1_v2; break;
-			case 29: room_to_load = rm_stage_sgz1_v2; break;
-			case 30: room_to_load = rm_stage_acz_r_v2; break;
-			case 31: room_to_load = rm_stage_tsz0; break;
-			case 32: room_to_load = rm_bonus; break;
-			case 33: room_to_load = rm_special; break;
-			case 34: room_to_load = rm_continue; break;
+			case 26: room_to_load = rm_stage_nlz2; break;
+			case 27: room_to_load = rm_stage_ssz1; break;
+			case 28: room_to_load = rm_stage_blz1; break;
+			case 29: room_to_load = rm_stage_bpz1_v2; break;
+			case 30: room_to_load = rm_stage_sgz1_v2; break;
+			case 31: room_to_load = rm_stage_acz_r_v2; break;
+			case 32: room_to_load = rm_stage_tsz0; break;
+			case 33: room_to_load = rm_bonus; break;
+			case 34: room_to_load = rm_special; break;
+			case 35: room_to_load = rm_continue; break;
 			default: room_to_load = noone;
 		}
 

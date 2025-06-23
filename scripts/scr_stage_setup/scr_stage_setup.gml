@@ -27,7 +27,7 @@ function scr_stage_setup()
 	{
 		case rm_stage_tsz0:
 		
-			m_stage_set(30, "TECH STADIUM", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
+			m_stage_set(31, "TECH STADIUM", ACT_SINGLE, bgm_woofle, m_local_random_animals(_animal_array), 1024, 1536, rm_devmenu, true);
 			
 			player_spawn(112, 896, global.player_main, "Objects");
 			player_spawn(96, 896, global.player_cpu, "Objects");
@@ -135,7 +135,7 @@ function scr_stage_setup()
 		
 		case rm_stage_nlz1:
 		
-		m_stage_set(24, "NEVER LAKE", 0, bgm_nlz1_bb8, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
+		m_stage_set(24, "NEVER LAKE", 0, bgm_nlz1_bb8, m_local_random_animals(_animal_array), 2000, -1, rm_stage_nlz2, false);
 		
 		player_spawn(100, 1088, global.player_main, "Objects");
 		player_spawn(70, 1088, global.player_cpu, "Objects");
@@ -247,6 +247,58 @@ function scr_stage_setup()
 		
 		break;
 		
+		case rm_stage_nlz2:
+		
+		m_stage_set(25, "NEVER LAKE", 1, bgm_nlz2_theboom, m_local_random_animals(_animal_array), 2944, 1968, rm_stage_ssz1, true);
+		
+		player_spawn(0, 256, global.player_main, "Objects");
+		player_spawn(0, 256, global.player_cpu, "Objects");
+		
+		    var _bg_dist = dist_get_data(EFFECTDATA.LZBG);
+			var _fg_dist = dist_get_data(EFFECTDATA.LZFG);
+			
+			dist_set_fg([], _fg_dist, -0.5, 0, room_height, ["GraphicsA", "AssetsA", "GraphicsB", "AssetsB"]);
+			dist_set_bg(_bg_dist, _bg_dist, -0.25, 192, 348);
+		
+		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
+		
+		// Background
+			
+			bg_add_layer(spr_nlz1_bg_layer0, 0, 375, -64, 0, 0, 0, 0, 0.050);				
+			bg_set_perspective_x(0, 0);
+			bg_add_layer(spr_nlz1_bg_layer3, 0, 375, -48, 0, -0.2, 0, 0.02, 0.060);				
+			bg_set_perspective_x(0.02, 0);
+			bg_add_layer(spr_nlz1_bg_layer4, 0, 375, -96, 0, 0, 0, 0.04, 0.010);				
+			bg_set_perspective_x(0.04, 0);
+			bg_add_layer(spr_nlz2_bg_layer3, 0, 400, 16, 0, 0, 0, 0.06, 0.015);				
+			bg_set_perspective_x(0.06, 0);
+			bg_add_layer(spr_nlz2_bg_layer4, 0, 400, 16, 0, 0, 0, 0.08, 0.020);				
+			bg_set_perspective_x(0.08, 0);
+			bg_add_layer(spr_nlz2_bg_layer5, 0, 400, 16, 0, 0, 0, 0.10, 0.025);				
+			bg_set_perspective_x(0.10, 0);
+			bg_add_layer(spr_nlz2_bg_layer6, 0, 400, 16, 0, 0, 0, 0.12, 0.035);	
+			bg_set_perspective_x(0.12, 0);
+			bg_add_layer(spr_nlz2_bg_layer7, 0, 400, 0, 0, 0, 0, 0.16, 0.040);	
+			bg_set_perspective_x(0.16, 0);
+			bg_add_layer(spr_nlz2_bg_layer8, 0, 400, 0, 0, 0, 0, 0.18, 0.050);	
+			bg_set_perspective_x(0.18, 0);
+			bg_add_layer(spr_nlz2_bg_layer9, 0, 400, 0, 0, 0, 0, 0.20, 0.060);	
+			bg_set_perspective_x(0.20, 0);
+			bg_add_layer(spr_nlz2_bg_layer10, 0, 400, 0, 0, 0, 0, 0.22, 0.075);	
+			bg_set_perspective_x(0.22, 0);
+			bg_add_layer(spr_nlz2_bg_layer11, 0, 400, 4, 0, 0, 0, 0.24, 0.075);	
+			bg_set_perspective_x(0.24, 0);
+			bg_add_layer(spr_nlz2_bg_layer12, 0, 400, 0, 0, 0, 0, 0.26, 0.075);	
+			bg_set_perspective_x(0.26, 0);
+			bg_add_layer(spr_nlz2_bg_layer13, 0, 400, 0, 0, 0, 0, 0.30, 0.075);	
+			bg_set_perspective_x(0.30, 0);
+			bg_add_layer(spr_nlz2_bg_layer14, 0, 400, 64, 0, 0, 0, 0.40, 0.075);	
+			bg_set_perspective_x(0.40, 0);
+			bg_add_layer(spr_nlz2_bg_layer15, 0, 144, 288, 0, -0.3, 0, 0.300, 0);
+			bg_set_perspective_x(0.75, 2);
+			bg_set_perspective_y(water_level_init);
+		break;
+		
 			
 		case rm_stage_nlz2_v2:
 		
@@ -305,7 +357,7 @@ function scr_stage_setup()
 		
 		case rm_stage_ssz1:
 		
-		m_stage_set(25, "SKYLINE SQUARE", 0, bgm_ssz1alt_mushroombridgermx, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
+		m_stage_set(26, "SKYLINE SQUARE", 0, bgm_ssz1alt_mushroombridgermx, m_local_random_animals(_animal_array), 2000, -1, rm_stage_blz1, false);
 		
 		player_spawn(5, 624, global.player_main, "Objects");
 		player_spawn(5, 624, global.player_cpu, "Objects");
@@ -477,7 +529,7 @@ function scr_stage_setup()
 		
 		case rm_stage_blz1:
 		
-		m_stage_set(26, "BRIDGE LAGOON", 0, bgm_blz1old_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
+		m_stage_set(27, "BRIDGE LAGOON", 0, bgm_blz1old_BIZ1JX16bit, m_local_random_animals(_animal_array), 2000, -1, rm_devmenu, false);
 		
 		player_spawn(100, 624, global.player_main, "Objects");
 		player_spawn(70, 624, global.player_cpu, "Objects");
@@ -572,7 +624,7 @@ function scr_stage_setup()
 		
 		case rm_stage_bpz1:
 		
-		m_stage_set(27, "BLOCKSIDE PARK", 0, bgm_bpz1_maze1, m_local_random_animals(_animal_array), 1500, -1, rm_stage_bpz2, true);
+		m_stage_set(28, "BLOCKSIDE PARK", 0, bgm_bpz1_maze1, m_local_random_animals(_animal_array), 1500, -1, rm_stage_bpz2, true);
 		
 		player_spawn(100, 1376, global.player_main, "Objects");
 		player_spawn(70, 1376, global.player_cpu, "Objects");
@@ -657,7 +709,7 @@ function scr_stage_setup()
 		
 			case rm_stage_sgz1:
 		
-		m_stage_set(28, "SPRING GARDENS", 0, bgm_sgz1_springsend, m_local_random_animals(_animal_array), 2960, -1, rm_stage_sgz2_v2, true);
+		m_stage_set(29, "SPRING GARDENS", 0, bgm_sgz1_springsend, m_local_random_animals(_animal_array), 2960, -1, rm_stage_sgz2_v2, true);
 		
 		player_spawn(25, 2928, global.player_main, "Objects");
 		player_spawn(25, 2928, global.player_cpu, "Objects");
@@ -1012,7 +1064,7 @@ function scr_stage_setup()
 		
 		case rm_stage_acz_r:
 		
-		m_stage_set(29, "AZURE CARNIVAL", 1, bgm_acz_r_joinus4happytime, m_local_random_animals(_animal_array), 1088, 912, rm_devmenu, true);
+		m_stage_set(30, "AZURE CARNIVAL", 1, bgm_acz_r_joinus4happytime, m_local_random_animals(_animal_array), 1088, 912, rm_devmenu, true);
 		
 		player_spawn(100, 800, global.player_main, "Objects");
 		player_spawn(80, 800, global.player_cpu, "Objects");

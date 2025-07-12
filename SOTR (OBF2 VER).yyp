@@ -422,6 +422,7 @@
     {"id":{"name":"bgm_boss","path":"sounds/bgm_boss/bgm_boss.yy",},},
     {"id":{"name":"bgm_bpz1_maze1","path":"sounds/bgm_bpz1_maze1/bgm_bpz1_maze1.yy",},},
     {"id":{"name":"bgm_bpz2_maze2","path":"sounds/bgm_bpz2_maze2/bgm_bpz2_maze2.yy",},},
+    {"id":{"name":"bgm_bpz2alt_slimyspring","path":"sounds/bgm_bpz2alt_slimyspring/bgm_bpz2alt_slimyspring.yy",},},
     {"id":{"name":"bgm_bsz_c_bop_it_comet","path":"sounds/bgm_bsz_c_bop_it_comet/bgm_bsz_c_bop_it_comet.yy",},},
     {"id":{"name":"bgm_ccz_hulahoop","path":"sounds/bgm_ccz_hulahoop/bgm_ccz_hulahoop.yy",},},
     {"id":{"name":"bgm_continue","path":"sounds/bgm_continue/bgm_continue.yy",},},

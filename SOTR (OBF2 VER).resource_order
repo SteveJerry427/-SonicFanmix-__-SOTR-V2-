@@ -372,6 +372,7 @@
     {"name":"bgm_boss","order":7,"path":"sounds/bgm_boss/bgm_boss.yy",},
     {"name":"bgm_bpz1_maze1","order":15,"path":"sounds/bgm_bpz1_maze1/bgm_bpz1_maze1.yy",},
     {"name":"bgm_bpz2_maze2","order":30,"path":"sounds/bgm_bpz2_maze2/bgm_bpz2_maze2.yy",},
+    {"name":"bgm_bpz2alt_slimyspring","order":40,"path":"sounds/bgm_bpz2alt_slimyspring/bgm_bpz2alt_slimyspring.yy",},
     {"name":"bgm_bsz_c_bop_it_comet","order":37,"path":"sounds/bgm_bsz_c_bop_it_comet/bgm_bsz_c_bop_it_comet.yy",},
     {"name":"bgm_ccz_hulahoop","order":14,"path":"sounds/bgm_ccz_hulahoop/bgm_ccz_hulahoop.yy",},
     {"name":"bgm_continue","order":10,"path":"sounds/bgm_continue/bgm_continue.yy",},

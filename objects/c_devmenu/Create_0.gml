@@ -15,7 +15,7 @@ discord_set_data("In Menus", "", "drp_project_icon", "");
 // Add categories and options to the developer menu
 m_devmenu_add_category    // ID 0
 (
-    "SOCK ORBINAUTED TEST RUN V2" + "\n" + "DEVELOPER MENU",
+    "SOCK FANMIX" + "\n" + "DEVELOPER MENU",
 	
     "START GAME",
     "ROOM SELECT",

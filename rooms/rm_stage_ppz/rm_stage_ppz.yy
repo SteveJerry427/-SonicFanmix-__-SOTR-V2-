@@ -87,7 +87,6 @@
     {"name":"inst_5B9F7404","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
     {"name":"inst_5879FE59","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
     {"name":"inst_1199DE89","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
-    {"name":"inst_10C2D52F","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
     {"name":"inst_1172B317","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
     {"name":"inst_53D42E73","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
     {"name":"inst_62C2F67B","path":"rooms/rm_stage_ppz/rm_stage_ppz.yy",},
@@ -926,7 +925,6 @@
         {"$GMRInstance":"v2","%Name":"inst_1199DE89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1199DE89","objectId":{"name":"obj_itembox","path":"objects/obj_itembox/obj_itembox.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_itembox","path":"objects/obj_itembox/obj_itembox.yy",},"propertyId":{"name":"Type","path":"objects/obj_itembox/obj_itembox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Super Ring\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":15808.0,"y":561.0,},
-        {"$GMRInstance":"v2","%Name":"inst_10C2D52F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10C2D52F","objectId":{"name":"obj_giant_ring","path":"objects/obj_giant_ring/obj_giant_ring.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":13120.0,"y":64.0,},
         {"$GMRInstance":"v2","%Name":"inst_1172B317","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1172B317","objectId":{"name":"obj_itembox","path":"objects/obj_itembox/obj_itembox.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_itembox","path":"objects/obj_itembox/obj_itembox.yy",},"propertyId":{"name":"Type","path":"objects/obj_itembox/obj_itembox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"1UP\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":13168.0,"y":113.0,},

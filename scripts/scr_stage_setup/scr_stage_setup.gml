@@ -934,8 +934,8 @@ function scr_stage_setup()
 		
 		m_stage_set(12, "DAWNBREAK DRIVE", 0, bgm_ddz1_searchformydreams, m_local_random_animals(_animal_array), 2500, -1, rm_stage_ddz2, true);
 		
-		player_spawn(100, 624, global.player_main, "Objects");
-		player_spawn(70, 624, global.player_cpu, "Objects");
+		player_spawn(15, 1024, global.player_main, "Objects");
+		player_spawn(15, 1024, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		

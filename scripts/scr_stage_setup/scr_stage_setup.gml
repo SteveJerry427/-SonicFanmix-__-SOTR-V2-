@@ -253,7 +253,7 @@ function scr_stage_setup()
 		
 		case rm_stage_ssz1_v2:
 		
-		m_stage_set(4, "SKYLINE SQUARE", 0, bgm_ssz1_wearefree, m_local_random_animals(_animal_array), 2048, -1, rm_stage_ssz2_v2, false);
+		m_stage_set(4, "SKYLINE SQUARE", 0, bgm_ssz1_wearefree, m_local_random_animals(_animal_array), 2048, -1, rm_stage_blz1_v2, false);
 		
 		player_spawn(5, 1920, global.player_main, "Objects");
 		player_spawn(5, 1920, global.player_cpu, "Objects");
@@ -381,7 +381,7 @@ function scr_stage_setup()
 		
 		case rm_stage_blz1_v2:
 		
-		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1remsoda, m_local_random_animals(_animal_array), 1056, 2208, rm_stage_blz2, true);
+		m_stage_set(6, "BRIDGE LAGOON", 0, bgm_blz1_BIZ1remsoda, m_local_random_animals(_animal_array), 1056, 2208, rm_stage_bpz1_v2, true);
 		
 		player_spawn(100, 1024, global.player_main, "Objects");
 		player_spawn(70, 1024, global.player_cpu, "Objects");
@@ -434,7 +434,7 @@ function scr_stage_setup()
 		
 		case rm_stage_bpz1_v2:
 		
-		m_stage_set(8, "BLOCKSIDE PARK", 0, bgm_bpz1_maze1, m_local_random_animals(_animal_array), 1500, -1, rm_stage_bpz2, true);
+		m_stage_set(8, "BLOCKSIDE PARK", 0, bgm_bpz1_maze1, m_local_random_animals(_animal_array), 1500, -1, rm_stage_sgz1_v2, true);
 		
 		player_spawn(100, 1408, global.player_main, "Objects");
 		player_spawn(70, 1408, global.player_cpu, "Objects");
@@ -529,7 +529,7 @@ function scr_stage_setup()
 			
 			case rm_stage_sgz2_v2:
 		
-		m_stage_set(11, "SPRING GARDENS", 1, bgm_sgz2_midnightgreenhousermx, m_local_random_animals(_animal_array), 3968, 2944, rm_stage_ddz1, true);
+		m_stage_set(11, "SPRING GARDENS", 1, bgm_sgz2_midnightgreenhousermx, m_local_random_animals(_animal_array), 3968, 2944, rm_devmenu, true);
 		
 		player_spawn(55, 1536, global.player_main, "Objects");
 		player_spawn(55, 1536, global.player_cpu, "Objects");

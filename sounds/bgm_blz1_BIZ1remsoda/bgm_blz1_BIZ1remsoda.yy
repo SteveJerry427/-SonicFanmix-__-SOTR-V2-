@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"bgm_blz1_BIZ1",
+  "%Name":"bgm_blz1_BIZ1remsoda",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":188.12502,
-  "name":"bgm_blz1_BIZ1",
+  "duration":126.92027,
+  "name":"bgm_blz1_BIZ1remsoda",
   "parent":{
     "name":"BGM",
     "path":"folders/Audio/BGM.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_blz1_BIZ1.mp3",
+  "soundFile":"bgm_blz1_BIZ1remsoda.mp3",
   "type":1,
-  "volume":0.4,
+  "volume":1.0,
 }

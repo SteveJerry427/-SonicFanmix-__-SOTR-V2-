@@ -209,6 +209,7 @@ function scr_player_jump()
 			
 			action = ACTION_HAMMERSPIN;
 			dropdash_charge = 0;
+            vel_y = -5.5;
 			audio_play_sfx(sfx_hammer);
 			
 		break;

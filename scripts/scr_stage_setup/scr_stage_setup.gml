@@ -311,7 +311,7 @@ function scr_stage_setup()
 		
 			case rm_stage_ssz2_v2:
 		
-		m_stage_set(5, "SKYLINE SQUARE", 1, bgm_ssz2_loveyousonic, m_local_random_animals(_animal_array), 2880, -1, rm_stage_blz1, true);
+		m_stage_set(5, "SKYLINE SQUARE", 1, bgm_ssz2_loveyousonic, m_local_random_animals(_animal_array), 6000, -1, rm_stage_blz1, true);
 		
 		player_spawn(20, 1408, global.player_main, "Objects");
 		player_spawn(20, 1408, global.player_cpu, "Objects");

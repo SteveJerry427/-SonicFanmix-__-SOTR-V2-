@@ -199,7 +199,7 @@ function scr_stage_setup()
 			
 		case rm_stage_nlz2_v2:
 		
-		m_stage_set(3, "NEVER LAKE", 1, bgm_nlz2_theboom, m_local_random_animals(_animal_array), 2944, 2176, rm_stage_ssz1_v2, true);
+		m_stage_set(3, "NEVER LAKE", 1, bgm_nlz2_theboom, m_local_random_animals(_animal_array), 2944, 2176, rm_stage_ssz1_v3, true);
 		
 		player_spawn(0, 640, global.player_main, "Objects");
 		player_spawn(0, 640, global.player_cpu, "Objects");
@@ -251,12 +251,12 @@ function scr_stage_setup()
 		break;
 	
 		
-		case rm_stage_ssz1_v2:
+		case rm_stage_ssz1_v3:
 		
-		m_stage_set(4, "SKYLINE SQUARE", 0, bgm_ssz1_wearefree, m_local_random_animals(_animal_array), 2048, -1, rm_stage_blz1_v2, false);
+		m_stage_set(4, "SKYLINE SQUARE", 0, bgm_ssz1_wearefree, m_local_random_animals(_animal_array), 2432, -1, rm_stage_blz1_v2, false);
 		
-		player_spawn(5, 1920, global.player_main, "Objects");
-		player_spawn(5, 1920, global.player_cpu, "Objects");
+		player_spawn(5, 2143, global.player_main, "Objects");
+		player_spawn(5, 2143, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		
@@ -298,12 +298,12 @@ function scr_stage_setup()
 			bg_set_perspective_x(0.35, 0);
 			bg_add_layer(spr_ssz1_bg_layer14, 0, 400, 208, 0, -0.5, 0, 0.4, 0.175);				
 			bg_set_perspective_x(0.4, 0);
-			bg_add_layer(spr_ssz1_bg_layer13, 0, 64, 352, 0, -4, 0, 0.4, 0.15);
-			bg_add_layer(spr_ssz1_bg_layer13, 64, 64, 384, 0, -5, 0, 0.4, 0.15);
-			bg_add_layer(spr_ssz1_bg_layer13, 128, 64, 416, 0, 4, 0, 0.4, 0.15);	
-			bg_add_layer(spr_ssz1_bg_layer13, 192, 64, 448, 0, 5, 0, 0.4, 0.15);
+			bg_add_layer(spr_ssz1_bg_layer13, 0, 64, 384, 0, -4, 0, 0.4, 0.15);
+			bg_add_layer(spr_ssz1_bg_layer13, 64, 64, 416, 0, -5, 0, 0.4, 0.15);
+			bg_add_layer(spr_ssz1_bg_layer13, 128, 64, 448, 0, 4, 0, 0.4, 0.15);	
+			bg_add_layer(spr_ssz1_bg_layer13, 192, 64, 480, 0, 5, 0, 0.4, 0.15);
 			bg_set_perspective_x(0.4, 0);
-			bg_add_layer(spr_ssz1_bg_layer14, 0, 400, 280, 0, -0.6, 0, 0.45, 0.20);				
+			bg_add_layer(spr_ssz1_bg_layer14, 0, 400, 312, 0, -0.6, 0, 0.45, 0.20);				
 			bg_set_perspective_x(0.45, 0);
 			
 		break;

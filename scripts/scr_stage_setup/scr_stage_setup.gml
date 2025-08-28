@@ -65,7 +65,7 @@ function scr_stage_setup()
 		
 		case rm_stage_ccz:
 		
-		m_stage_set(0, "COLLISION CANVAS", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 2000, -1, rm_stage_ppz, true);
+		m_stage_set(0, "COLLISION CANVAS", ACT_SINGLE, bgm_ccz_golf_spectate1, m_local_random_animals(_animal_array), 2000, -1, rm_stage_ppz, true);
 		
 		player_spawn(100, 1504, global.player_main, "Objects");
 		player_spawn(70, 1504, global.player_cpu, "Objects");
@@ -588,7 +588,7 @@ function scr_stage_setup()
 		
 				case rm_stage_ddz1:
 		
-		m_stage_set(12, "DAWNBREAK DRIVE", 0, bgm_ddz1_searchformydreams, m_local_random_animals(_animal_array), 2500, -1, rm_stage_ddz2, true);
+		m_stage_set(12, "DAWNBREAK DRIVE", 0, bgm_ddz1_searchformydreams, m_local_random_animals(_animal_array), 2560, -1, rm_stage_ddz2, true);
 		
 		player_spawn(15, 1024, global.player_main, "Objects");
 		player_spawn(15, 1024, global.player_cpu, "Objects");
@@ -871,7 +871,7 @@ function scr_stage_setup()
 		
 		case rm_stage_bhz:
 		
-		m_stage_set(23, "BIG HILL", ACT_SINGLE, bgm_ccz_hulahoop, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
+		m_stage_set(23, "BIG HILL", ACT_SINGLE, bgm_ccz_golf_spectate1, m_local_random_animals(_animal_array), 12000, -1, rm_devmenu, true);
 		
 		player_spawn(100, 11936, global.player_main, "Objects");
 		player_spawn(70, 11936, global.player_cpu, "Objects");

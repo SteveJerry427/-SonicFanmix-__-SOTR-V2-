@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"bgm_ccz_hulahoop",
+  "%Name":"bgm_ccz_golf_spectate1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":103.392654,
-  "name":"bgm_ccz_hulahoop",
+  "duration":213.54361,
+  "name":"bgm_ccz_golf_spectate1",
   "parent":{
     "name":"BGM",
     "path":"folders/Audio/BGM.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_ccz_hulahoop.mp3",
+  "soundFile":"bgm_ccz_golf_spectate1.mp3",
   "type":1,
   "volume":1.0,
 }

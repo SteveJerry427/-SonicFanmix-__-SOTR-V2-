@@ -9,8 +9,8 @@ var _factor_x = _width / 320;
 var _factor_y = _height / 224;
 
 // Draw the banner
-var _x = _camera_x - 64;
-var _y = _camera_y - 24 + offset_banner * _factor_y;
+var _x = _camera_x - 208;
+var _y = _camera_y + 16 + offset_banner * _factor_y;
 draw_sprite(spr_gui_card_banner, 0, _x, _y);
 
 // Draw the zone name

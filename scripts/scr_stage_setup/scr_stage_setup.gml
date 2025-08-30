@@ -334,8 +334,6 @@ function scr_stage_setup()
 			bg_add_layer(spr_ssz2_bg_layer2, 80, 64, 80, 0, -0.150, 0, 0.02, 0.056);	
 			bg_add_layer(spr_ssz2_bg_layer2, 144, 256, 144, 0, -0.2, 0, 0.03, 0.056);
 			bg_set_perspective_x(0.03, 0);
-			bg_add_layer(spr_ssz2_bg_layer3, 0, 400, -48, 0, 0, 0, 0.04, 0.050);				
-			bg_set_perspective_x(0.04, 0);
 			bg_add_layer(spr_ssz2_bg_layer4, 0, 400, -48, 0, -0.095, 0, 0.06, 0.060);				
 			bg_set_perspective_x(0.06, 0);
 			bg_add_layer(spr_ssz2_bg_layer5, 0, 1280, -32, 0, 0, 0, 0.08, 0.070);				
@@ -347,35 +345,24 @@ function scr_stage_setup()
 			bg_set_perspective_x(0.15, 0);
 			bg_add_layer(spr_ssz2_bg_layer8, 0, 352, -64, 0, 0.1, 0, 0.175, 0.090);				
 			bg_set_perspective_x(0.175, 0);
-			bg_add_layer(spr_ssz2_bg_layer9, 0, 400, 0, 0, -2.5, 0, 0.20, 0.090);				
-			bg_set_perspective_x(0.20, 0);
-			bg_add_layer(spr_ssz2_bg_layer10, 0, 272, 0, 0, 3, 0, 0.20, 0.090);
-			bg_add_layer(spr_ssz2_bg_layer10, 272, 128, 271, 0, 0, 0, 0.20, 0.090);
-			bg_set_perspective_x(0.20, 0);
-			bg_add_layer(spr_ssz2_bg_layer11, 0, 960, 40, 0, 0, 0, 0.25, 0.11);				
+			bg_add_layer(spr_ssz2_test_layer_2, 0, 1440, -80, 0, 0, 0, 0.25, 0.11);				
 			bg_set_perspective_x(0.25, 0);
 			bg_add_layer(spr_ssz2_bg_layer12, 0, 384, 40, 0, 0.2, 0, 0.30, 0.11);				
 			bg_set_perspective_x(0.30, 0);
-			bg_add_layer(spr_ssz2_bg_layer13, 0, 960, 80, 0, 0, 0, 0.35, 0.15);				
+			bg_add_layer(spr_ssz2_test_layer, 0, 1440, -80, 0, 0, 0, 0.35, 0.15);				
 			bg_set_perspective_x(0.35, 0);
 			bg_add_layer(spr_ssz2_bg_layer14, 0, 1280, 80, 0, -5, 0, 0.35, 0.175);				
 			bg_set_perspective_x(0.35, 0);
 			bg_add_layer(spr_ssz2_bg_layer15, 0, 784, 80, 0, 6, 0, 0.4, 0.175);
 			bg_add_layer(spr_ssz2_bg_layer15, 784, 496, 864, 0, 0, 0, 0.4, 0.175);
 			bg_set_perspective_x(0.4, 0);
-			bg_add_layer(spr_ssz2_bg_layer16, 0, 1280, 138, 0, 0, 0, 0.5, 0.20);				
+			bg_add_layer(spr_ssz2_test_layer_3, 0, 1440, 116, 0, 0, 0, 0.5, 0.20);				
 			bg_set_perspective_x(0.5, 0);
-			bg_add_layer(spr_ssz2_bg_layer17, 0, 1280, 138, 0, 0, 0, 0.6, 0.20);				
-			bg_set_perspective_x(0.6, 0);
-			bg_add_layer(spr_ssz2_bg_layer18, 0, 64, 1304, 0, -4, 0, 0.4, 0.20);
-			bg_add_layer(spr_ssz2_bg_layer18, 64, 64, 1316, 0, -5, 0, 0.4, 0.20);
-			bg_add_layer(spr_ssz2_bg_layer18, 128, 64, 1328, 0, 4, 0, 0.4, 0.20);	
-			bg_add_layer(spr_ssz2_bg_layer18, 192, 64, 1336, 0, 5, 0, 0.4, 0.20);
-			bg_set_perspective_x(0.4, 0);
 			bg_add_layer(spr_ssz2_bg_layer19, 0, 960, 176, 0, -0.6, 0, 0.4, 0.175);				
 			bg_set_perspective_x(0.4, 0);
 			bg_add_layer(spr_ssz2_bg_layer20, 0, 800, 248, 0, -0.5, 0, 0.45, 0.20);				
 			bg_set_perspective_x(0.45, 0);
+			
 			
 		break;
 		

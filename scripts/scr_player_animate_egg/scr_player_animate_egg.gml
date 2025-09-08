@@ -35,7 +35,7 @@ function scr_player_animate_egg()
 		
 		case ANI_MOVE:
 		
-			var _sprite = spr_sonic_walk;
+			var _sprite = spr_egg_walk;
 			
 			if super_timer > 0
 			{

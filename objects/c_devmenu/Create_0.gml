@@ -52,6 +52,7 @@ m_devmenu_add_category    // ID 2
 	"SPRING GARDENS 2",
 	"DAWNBREAK DRIVE 1",
 	"DAWNBREAK DRIVE 2",
+	"AQUA NEXUS 1",
 	"AURORA ICEFIELD 1",
 	"AURORA ICEFIELD 2",
 	"EGGSERVATORY 1",
@@ -121,3 +122,4 @@ m_devmenu_add_category    // ID 5
 
 // Load the first category of the developer menu
 m_devmenu_load_category(0);
+audio_play_bgm(bgm_menu)

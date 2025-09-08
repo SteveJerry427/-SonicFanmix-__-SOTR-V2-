@@ -15,7 +15,7 @@ function scr_fw_game_setup()
 	global.sound_volume = 0.5;
 	global.debug_collision = 0;
 	global.start_room = rm_devmenu;
-	global.skip_branding = false;
+	global.skip_branding = true;
 	global.discord_app_id = "1213647618434011196";
 	
 	// Fonts

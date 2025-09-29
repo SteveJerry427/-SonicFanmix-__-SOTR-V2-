@@ -43,7 +43,14 @@ function scr_player_animate_knuckles()
 			
 			if abs(spd_ground) >= 6
 			{
-				_sprite = spr_knuckles_run;
+				if abs(spd_ground) < 10
+				{
+					_sprite = spr_knuckles_run;
+				}
+				else
+				{
+					_sprite = spr_knuckles_dash;
+				}
 			}
 			
 			var _duration = floor(max(1, 9 - abs(spd_ground)));

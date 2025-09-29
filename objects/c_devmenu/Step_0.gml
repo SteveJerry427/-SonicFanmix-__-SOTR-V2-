@@ -123,6 +123,11 @@ switch category_id
 		// Load a stage based on loaded global.stage_index from the save data
 		switch global.stage_index
 		{
+			case 0: room_goto(rm_stage_ppz);
+			case 1: room_goto(rm_stage_nlz1_v2);
+			case 2: room_goto(rm_stage_ssz1_v3);
+			case 3: room_goto(rm_stage_blz1_v2);
+			case 4: room_goto(rm_stage_sgz1_v2);
 			default:
 				room_goto(rm_stage_nlz1_v2);
 		}

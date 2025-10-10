@@ -1,3 +1,6 @@
+Sock Fanmix is a 2D Classic Sonic Fangame made with Orbinaut Framework 2 that aims to be a good and simple romp through a Handful of Zones
+Featuring a Sketchhog Infulenced Art Style, Decently sized levels, and a oddball selection of Characters and Skins! 
+
 bee movie script
 According to all known laws of aviation, there is no way a bee should be able to fly.
 Its wings are too small to get its fat little body off the ground.

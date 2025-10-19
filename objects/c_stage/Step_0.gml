@@ -36,6 +36,12 @@ if water_enabled
 	{
 		c_framework.background.perspective_y_data[0] = water_level;
 	}
+	
+	if room == rm_stage_bpz2
+	{
+		c_framework.background.perspective_y_data[0] = water_level;
+	}
+	
 	if room == rm_stage_sgz2_v2
 	{
 		c_framework.background.perspective_y_data[0] = water_level;

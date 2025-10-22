@@ -761,8 +761,8 @@ function scr_stage_setup()
 		
 		m_stage_set(17, "EGGSERVATORY", 1, bgm_esz2_degeneracysaturn, m_local_random_animals(_animal_array), 20000, -1, rm_devmenu, true);
 		
-		player_spawn(1275, 19935, global.player_main, "Objects");
-		player_spawn(1275, 19935, global.player_cpu, "Objects");
+		player_spawn(1168, 19968, global.player_main, "Objects");
+		player_spawn(1168, 19968, global.player_cpu, "Objects");
 		
 		collision_load_binary("widths_tsz", "heights_tsz", "angles_tsz", "CollisionA", "CollisionB");
 		 
